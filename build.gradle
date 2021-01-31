@@ -17,7 +17,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/mini-builds/traintimesservice")
             credentials {
                 username = System.getenv("GITHUB_USER")
-                password = System.getenv("PUBLISH_TOKEN")
+                password = System.getenv("GITHUB_PUBLISH_TOKEN")
             }
         }
     }

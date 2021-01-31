@@ -3,9 +3,7 @@ name: Java CI
 on:
   push:
     branches:
-      - master
-    ignore-tags:
-      - "*"
+      - main
 
 env:
   GITHUB_USER: ${{ secrets.GITHUB_USER }}

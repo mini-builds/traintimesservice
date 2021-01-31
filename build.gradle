@@ -14,7 +14,7 @@ repositories {
 publishing {
     repositories {
         maven {
-            url = uri("https://maven.pkg.github.com/minibuilds/traintimesservice")
+            url = uri("https://maven.pkg.github.com/mini-builds/traintimesservice")
             credentials {
                 username = System.getenv("GITHUB_USER")
                 password = System.getenv("PUBLISH_TOKEN")

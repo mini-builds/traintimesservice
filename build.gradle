@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group 'io.minibuilds'
+version '1.0.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+publishing {
+    repositories {
+        maven {
+            url = uri("https://maven.pkg.github.com/minibuilds/traintimesservice")
+            credentials {
+                username = System.getenv("GITHUB_USER")
+                password = System.getenv("PUBLISH_TOKEN")
+            }
+        }
+    }
+
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation group: 'org.simpleframework', name: 'simple-xml', version: '2.7.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    implementation ("com.squareup.retrofit2:converter-simplexml:2.9.0")
+        {
+            exclude module: 'stax'
+            exclude module: 'stax-api'
+            exclude module: 'xpp3'
+        }
+
+    testCompile 'org.junit.jupiter:junit-jupiter:5.4.2'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.assertj', name: 'assertj-core', version: '3.19.0'
+}

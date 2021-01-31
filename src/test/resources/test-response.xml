@@ -1,0 +1,289 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetDepBoardWithDetailsResponse xmlns="http://thalesgroup.com/RTTI/2017-10-01/ldb/">
+            <GetStationBoardResult xmlns:lt="http://thalesgroup.com/RTTI/2012-01-13/ldb/types"
+                                   xmlns:lt6="http://thalesgroup.com/RTTI/2017-02-02/ldb/types"
+                                   xmlns:lt7="http://thalesgroup.com/RTTI/2017-10-01/ldb/types" xmlns:lt4="http://thalesgroup.com/RTTI/2015-11-27/ldb/types" xmlns:lt5="http://thalesgroup.com/RTTI/2016-02-16/ldb/types" xmlns:lt2="http://thalesgroup.com/RTTI/2014-02-20/ldb/types" xmlns:lt3="http://thalesgroup.com/RTTI/2015-05-14/ldb/types">
+                <lt4:generatedAt>2021-01-31T11:07:10.3109972+00:00</lt4:generatedAt>
+                <lt4:locationName>Reading</lt4:locationName>
+                <lt4:crs>RDG</lt4:crs>
+                <lt4:filterLocationName>Basingstoke</lt4:filterLocationName>
+                <lt4:filtercrs>BSK</lt4:filtercrs>
+                <lt4:nrccMessages>
+                    <lt:message>Trains through Westbury may be delayed or amended. More details can be found in &lt;a href="http://nationalrail.co.uk/service_disruptions/265116.aspx ">Latest Travel News.&lt;/a></lt:message>
+                </lt4:nrccMessages>
+                <lt4:platformAvailable>true</lt4:platformAvailable>
+                <lt7:trainServices>
+                    <lt7:service>
+                        <lt4:std>11:12</lt4:std>
+                        <lt4:etd>On time</lt4:etd>
+                        <lt4:platform>1</lt4:platform>
+                        <lt4:operator>South Western Railway</lt4:operator>
+                        <lt4:operatorCode>SW</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:serviceID>kmWodzI59p0DzYAM8CUiIQ==</lt4:serviceID>
+                        <lt5:rsid>SW637300</lt5:rsid>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Reading</lt4:locationName>
+                                <lt4:crs>RDG</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Salisbury</lt4:locationName>
+                                <lt4:crs>SAL</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt7:subsequentCallingPoints>
+                            <lt7:callingPointList>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Basingstoke</lt7:locationName>
+                                    <lt7:crs>BSK</lt7:crs>
+                                    <lt7:st>11:30</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Overton</lt7:locationName>
+                                    <lt7:crs>OVR</lt7:crs>
+                                    <lt7:st>11:40</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Whitchurch (Hampshire)</lt7:locationName>
+                                    <lt7:crs>WCH</lt7:crs>
+                                    <lt7:st>11:45</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Andover</lt7:locationName>
+                                    <lt7:crs>ADV</lt7:crs>
+                                    <lt7:st>11:53</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Grateley</lt7:locationName>
+                                    <lt7:crs>GRT</lt7:crs>
+                                    <lt7:st>12:01</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Salisbury</lt7:locationName>
+                                    <lt7:crs>SAL</lt7:crs>
+                                    <lt7:st>12:14</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                            </lt7:callingPointList>
+                        </lt7:subsequentCallingPoints>
+                    </lt7:service>
+                    <lt7:service>
+                        <lt4:std>11:38</lt4:std>
+                        <lt4:etd>On time</lt4:etd>
+                        <lt4:platform>2</lt4:platform>
+                        <lt4:operator>Great Western Railway</lt4:operator>
+                        <lt4:operatorCode>GW</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:serviceID>sxmWRsf/XAeqAVZSQb1gRA==</lt4:serviceID>
+                        <lt5:rsid>GW069800</lt5:rsid>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Reading</lt4:locationName>
+                                <lt4:crs>RDG</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Basingstoke</lt4:locationName>
+                                <lt4:crs>BSK</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt7:subsequentCallingPoints>
+                            <lt7:callingPointList>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Reading West</lt7:locationName>
+                                    <lt7:crs>RDW</lt7:crs>
+                                    <lt7:st>11:40</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Mortimer</lt7:locationName>
+                                    <lt7:crs>MOR</lt7:crs>
+                                    <lt7:st>11:50</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Bramley (Hampshire)</lt7:locationName>
+                                    <lt7:crs>BMY</lt7:crs>
+                                    <lt7:st>11:56</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Basingstoke</lt7:locationName>
+                                    <lt7:crs>BSK</lt7:crs>
+                                    <lt7:st>12:04</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                            </lt7:callingPointList>
+                        </lt7:subsequentCallingPoints>
+                    </lt7:service>
+                    <lt7:service>
+                        <lt4:std>11:52</lt4:std>
+                        <lt4:etd>On time</lt4:etd>
+                        <lt4:platform>8B</lt4:platform>
+                        <lt4:operator>CrossCountry</lt4:operator>
+                        <lt4:operatorCode>XC</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:serviceID>L8SCuSHoKDLhdWn/k6VRTQ==</lt4:serviceID>
+                        <lt5:rsid>XC358100</lt5:rsid>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Manchester Piccadilly</lt4:locationName>
+                                <lt4:crs>MAN</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Eastleigh</lt4:locationName>
+                                <lt4:crs>ESL</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt7:subsequentCallingPoints>
+                            <lt7:callingPointList>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Basingstoke</lt7:locationName>
+                                    <lt7:crs>BSK</lt7:crs>
+                                    <lt7:st>12:09</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Winchester</lt7:locationName>
+                                    <lt7:crs>WIN</lt7:crs>
+                                    <lt7:st>12:26</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Eastleigh</lt7:locationName>
+                                    <lt7:crs>ESL</lt7:crs>
+                                    <lt7:st>12:35</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                            </lt7:callingPointList>
+                        </lt7:subsequentCallingPoints>
+                    </lt7:service>
+                    <lt7:service>
+                        <lt4:std>12:12</lt4:std>
+                        <lt4:etd>On time</lt4:etd>
+                        <lt4:platform>1</lt4:platform>
+                        <lt4:operator>South Western Railway</lt4:operator>
+                        <lt4:operatorCode>SW</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:serviceID>f1pjb2R4GiVqtjblyY4jVw==</lt4:serviceID>
+                        <lt5:rsid>SW637500</lt5:rsid>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Reading</lt4:locationName>
+                                <lt4:crs>RDG</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Salisbury</lt4:locationName>
+                                <lt4:crs>SAL</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt7:subsequentCallingPoints>
+                            <lt7:callingPointList>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Basingstoke</lt7:locationName>
+                                    <lt7:crs>BSK</lt7:crs>
+                                    <lt7:st>12:31</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Overton</lt7:locationName>
+                                    <lt7:crs>OVR</lt7:crs>
+                                    <lt7:st>12:40</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Whitchurch (Hampshire)</lt7:locationName>
+                                    <lt7:crs>WCH</lt7:crs>
+                                    <lt7:st>12:45</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Andover</lt7:locationName>
+                                    <lt7:crs>ADV</lt7:crs>
+                                    <lt7:st>12:53</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Grateley</lt7:locationName>
+                                    <lt7:crs>GRT</lt7:crs>
+                                    <lt7:st>13:01</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Salisbury</lt7:locationName>
+                                    <lt7:crs>SAL</lt7:crs>
+                                    <lt7:st>13:14</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                            </lt7:callingPointList>
+                        </lt7:subsequentCallingPoints>
+                    </lt7:service>
+                    <lt7:service>
+                        <lt4:std>12:38</lt4:std>
+                        <lt4:etd>On time</lt4:etd>
+                        <lt4:platform>2</lt4:platform>
+                        <lt4:operator>Great Western Railway</lt4:operator>
+                        <lt4:operatorCode>GW</lt4:operatorCode>
+                        <lt4:serviceType>train</lt4:serviceType>
+                        <lt4:serviceID>JO1y91/XwQTtW6ZtznYWrg==</lt4:serviceID>
+                        <lt5:rsid>GW070000</lt5:rsid>
+                        <lt5:origin>
+                            <lt4:location>
+                                <lt4:locationName>Reading</lt4:locationName>
+                                <lt4:crs>RDG</lt4:crs>
+                            </lt4:location>
+                        </lt5:origin>
+                        <lt5:destination>
+                            <lt4:location>
+                                <lt4:locationName>Basingstoke</lt4:locationName>
+                                <lt4:crs>BSK</lt4:crs>
+                            </lt4:location>
+                        </lt5:destination>
+                        <lt7:subsequentCallingPoints>
+                            <lt7:callingPointList>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Reading West</lt7:locationName>
+                                    <lt7:crs>RDW</lt7:crs>
+                                    <lt7:st>12:41</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Mortimer</lt7:locationName>
+                                    <lt7:crs>MOR</lt7:crs>
+                                    <lt7:st>12:50</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Bramley (Hampshire)</lt7:locationName>
+                                    <lt7:crs>BMY</lt7:crs>
+                                    <lt7:st>12:56</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                                <lt7:callingPoint>
+                                    <lt7:locationName>Basingstoke</lt7:locationName>
+                                    <lt7:crs>BSK</lt7:crs>
+                                    <lt7:st>13:04</lt7:st>
+                                    <lt7:et>On time</lt7:et>
+                                </lt7:callingPoint>
+                            </lt7:callingPointList>
+                        </lt7:subsequentCallingPoints>
+                    </lt7:service>
+                </lt7:trainServices>
+            </GetStationBoardResult>
+        </GetDepBoardWithDetailsResponse>
+    </soap:Body>
+</soap:Envelope>

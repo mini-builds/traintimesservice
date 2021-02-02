@@ -6,16 +6,16 @@ import org.simpleframework.xml.Root;
 @Root(name = "ldb:GetDepBoardWithDetailsRequest", strict = false)
 public class GetDepBoardWithDetailsRequest {
 
-  @Element(name = "ldb:numRows", required = false)
+  @Element(name = "ldb:numRows")
   private final int numRows = 150;
 
-  @Element(name = "ldb:crs", required = false)
+  @Element(name = "ldb:crs")
   public final String crs;
 
-  @Element(name = "ldb:filterCrs", required = false)
+  @Element(name = "ldb:filterCrs")
   private final String filterCrs;
 
-  @Element(name = "ldb:filterType", required = false)
+  @Element(name = "ldb:filterType")
   private final String filterType = "to";
 
 

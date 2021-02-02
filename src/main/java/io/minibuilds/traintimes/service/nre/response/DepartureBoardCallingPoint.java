@@ -1,7 +1,9 @@
 package io.minibuilds.traintimes.service.nre.response;
 
 import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
 
+@Root(strict = false)
 public class DepartureBoardCallingPoint {
   @Element(name="locationName")
   private String locationName;

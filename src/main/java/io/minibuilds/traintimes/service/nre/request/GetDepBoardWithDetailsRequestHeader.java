@@ -3,7 +3,7 @@ package io.minibuilds.traintimes.service.nre.request;
 import org.simpleframework.xml.Element;
 
 public class GetDepBoardWithDetailsRequestHeader {
-  @Element(name = "typ:AccessToken", required = false)
+  @Element(name = "typ:AccessToken")
   private final AccessToken header;
 
   public GetDepBoardWithDetailsRequestHeader(AccessToken header) {

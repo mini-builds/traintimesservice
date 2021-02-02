@@ -2,10 +2,12 @@ package io.minibuilds.traintimes.service.nre.response;
 
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.ElementList;
+import org.simpleframework.xml.Root;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Root(strict = false)
 public class DepartureBoardStationBoard {
   @ElementList(name = "nrccMessages", required = false)
   private ArrayList<String> nrccMessages;
